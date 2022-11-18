@@ -1,0 +1,58 @@
+body {
+	position: relative;
+	background: #ccc;
+	font-size: 12px;
+}
+p {
+	margin: 10px;
+   
+}
+a.btn {
+	padding: 0.25em 1em;
+	margin: 1em 0 0;
+	font-size: 12px;
+	float: right;
+    border :2px  solid #808080;
+    text-decoration: none;
+    color: #1306d3;
+	border-style: outset;
+}
+
+a.btn:hover {
+	padding: 0.25em 1em;
+	margin: 1em 0 0;
+	font-size: 12px;
+	float: right;
+    border :2px   solid #1306d3;
+    text-decoration: none;
+    color: rgb(2, 1, 1);
+	border-style: outset;
+}
+
+img.icon {
+	width: 40px;
+	margin-right: 1em;
+}
+.winmodal {
+	user-select: none;
+    background-color:#c0c0c0;
+	border: 2px  #808080;
+	border-style: outset;
+}
+#screen {
+	position: relative;
+	width: 640px;
+	height: 480px;
+	margin: auto;
+	display: grid;
+	place-items: center;
+	background-color: blue;
+    background-image: url(../windxp.jpg);
+    background-repeat: auto;
+}
+
+.card-header{
+    background-color: #1306d3;
+    color: #fff;
+    padding: 5px;
+}
